@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A5479EA2-5326-43A5-89E2-678228ADDBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.Infrastructure.Database", "PowerDiary.Chat.Database\PowerDiary.Infrastructure.Database.csproj", "{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BoundedContexts", "BoundedContexts", "{97EF58FD-9EEA-42CD-A84D-F0D1F006682A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.BoundedContexts.BaseRegistry", "PowerDiary.BoundedContexts.BaseRegistry\PowerDiary.BoundedContexts.BaseRegistry.csproj", "{98A914A7-B43B-4039-AB89-08D344626382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.BoundedContexts.Messaging.Chats", "PowerDiary.BoundedContexts.Messaging.Chats\PowerDiary.BoundedContexts.Messaging.Chats.csproj", "{A3655A5E-39A3-48A3-BEED-7ADE52C2464E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{03D350F3-CF18-4CC3-B2CD-3960F8133EEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6D1F4E64-F218-48E9-BA5B-45DAFA4C8FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.BoundedContexts.Messaging.Chats.Services", "PowerDiary.BoundedContexts.Messaging.Chats.Services\PowerDiary.BoundedContexts.Messaging.Chats.Services.csproj", "{F09525BC-3F2B-4BC3-90C9-C7146EB63337}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{EC45EAF1-04A4-4E26-821A-1314E90323DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{867A6182-3E04-45B5-A07B-4C4510BAD506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BB5CDBCD-4124-40AB-AF81-DD83725A24AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{7E942DCF-3A20-4204-B4DC-93DECFB48EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.BoundedContexts.Messaging.Chats.Services.Tests", "PowerDiary.BoundedContexts.Messaging.Chats.Services.Tests\PowerDiary.BoundedContexts.Messaging.Chats.Services.Tests.csproj", "{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerDiary.BoundedContexts.BaseRegistry.Services", "PowerDiary.BoundedContexts.BaseRegistry.Services\PowerDiary.BoundedContexts.BaseRegistry.Services.csproj", "{383DE19F-2138-4A4B-8C05-FAB0B2903D77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A914A7-B43B-4039-AB89-08D344626382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A914A7-B43B-4039-AB89-08D344626382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A914A7-B43B-4039-AB89-08D344626382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A914A7-B43B-4039-AB89-08D344626382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3655A5E-39A3-48A3-BEED-7ADE52C2464E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3655A5E-39A3-48A3-BEED-7ADE52C2464E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3655A5E-39A3-48A3-BEED-7ADE52C2464E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3655A5E-39A3-48A3-BEED-7ADE52C2464E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09525BC-3F2B-4BC3-90C9-C7146EB63337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09525BC-3F2B-4BC3-90C9-C7146EB63337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09525BC-3F2B-4BC3-90C9-C7146EB63337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09525BC-3F2B-4BC3-90C9-C7146EB63337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867A6182-3E04-45B5-A07B-4C4510BAD506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867A6182-3E04-45B5-A07B-4C4510BAD506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867A6182-3E04-45B5-A07B-4C4510BAD506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867A6182-3E04-45B5-A07B-4C4510BAD506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383DE19F-2138-4A4B-8C05-FAB0B2903D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383DE19F-2138-4A4B-8C05-FAB0B2903D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383DE19F-2138-4A4B-8C05-FAB0B2903D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383DE19F-2138-4A4B-8C05-FAB0B2903D77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEDD0C34-9F2E-4076-8F4D-7DBB0B79C073} = {A5479EA2-5326-43A5-89E2-678228ADDBBB}
+		{98A914A7-B43B-4039-AB89-08D344626382} = {03D350F3-CF18-4CC3-B2CD-3960F8133EEB}
+		{A3655A5E-39A3-48A3-BEED-7ADE52C2464E} = {03D350F3-CF18-4CC3-B2CD-3960F8133EEB}
+		{03D350F3-CF18-4CC3-B2CD-3960F8133EEB} = {97EF58FD-9EEA-42CD-A84D-F0D1F006682A}
+		{6D1F4E64-F218-48E9-BA5B-45DAFA4C8FE8} = {97EF58FD-9EEA-42CD-A84D-F0D1F006682A}
+		{F09525BC-3F2B-4BC3-90C9-C7146EB63337} = {6D1F4E64-F218-48E9-BA5B-45DAFA4C8FE8}
+		{867A6182-3E04-45B5-A07B-4C4510BAD506} = {EC45EAF1-04A4-4E26-821A-1314E90323DB}
+		{7E942DCF-3A20-4204-B4DC-93DECFB48EE2} = {BB5CDBCD-4124-40AB-AF81-DD83725A24AD}
+		{F5B4848F-17EA-426A-A5F6-DA0FD5F62F84} = {7E942DCF-3A20-4204-B4DC-93DECFB48EE2}
+		{383DE19F-2138-4A4B-8C05-FAB0B2903D77} = {6D1F4E64-F218-48E9-BA5B-45DAFA4C8FE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BFB658A-1509-419B-AA09-55F1E1640C65}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PowerDiary.BoundedContexts.BaseRegistry.Services\PowerDiary.BoundedContexts.BaseRegistry.Services.csproj" />
+    <ProjectReference Include="..\PowerDiary.BoundedContexts.Messaging.Chats\PowerDiary.BoundedContexts.Messaging.Chats.csproj" />
+    <ProjectReference Include="..\PowerDiary.Chat.Database\PowerDiary.Infrastructure.Database.csproj" />
+  </ItemGroup>
+
+</Project>
