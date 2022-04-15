@@ -1,10 +1,10 @@
-name: build
+name: build testes
 
 on:
   push:
-    branches: [ main ]
+    branches: [ testes ]
   pull_request:
-    branches: [ main ]
+    branches: [ testes ]
 
 jobs:
   build:
