@@ -17,7 +17,7 @@ namespace ChatClient
 
 		static async Task<int> Main(string[] args)
 		{
-			var configuration = Configure();//
+			var configuration = Configure();////
 			var host = CreateHostBuilder(configuration);
 			await host.RunConsoleAsync();
 			return Environment.ExitCode;
